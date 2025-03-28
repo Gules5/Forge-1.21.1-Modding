@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures":{
-    "layer0": "tutorialmood:item/raw_alexandrite_block"
-  }
+  "parent": "tutorialmood:block/raw_alexandrite_block"
 }
