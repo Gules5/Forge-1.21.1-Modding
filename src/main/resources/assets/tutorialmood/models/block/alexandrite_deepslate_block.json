@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tutorialmood:block/alexandrite_deepslate_ore"
+  }
+}

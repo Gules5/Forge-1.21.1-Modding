@@ -3,5 +3,10 @@
   "item.tutorialmood.raw_alexandrite": "Raw Alexandrite",
 
   "block.tutorialmood.alexandrite_block": "Alexandrite Block",
-  "block.tutorialmood.raw_alexandrite_block": "Raw Alexandrite Block"
+  "block.tutorialmood.raw_alexandrite_block": "Raw Alexandrite Block",
+  "block.tutorialmood.alexandrite_ore": "Alexandrite Ore",
+  "block.tutorialmood.alexandrite_deepslate_ore": "Deepslate Alexandrite Ore",
+
+  "creativetab.tutorialmood.alexandrite_items": "Alexandrite Items",
+  "creativetab.tutorialmood.alexandrite_blocks": "Alexandrite Blocks"
 }

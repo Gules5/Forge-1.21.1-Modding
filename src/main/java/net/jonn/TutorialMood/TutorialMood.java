@@ -2,6 +2,7 @@ package net.jonn.TutorialMood;
 
 import com.mojang.logging.LogUtils;
 import net.jonn.TutorialMood.Block.ModBlocks;
+import net.jonn.TutorialMood.Item.ModCreativeModeTabs;
 import net.minecraft.world.food.FoodProperties;
 import net.jonn.TutorialMood.Item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -38,6 +39,7 @@ public class TutorialMood
         MinecraftForge.EVENT_BUS.register(this);
 
         //Register Custom Things
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
