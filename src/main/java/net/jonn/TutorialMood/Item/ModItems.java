@@ -1,5 +1,6 @@
 package net.jonn.TutorialMood.Item;
 
+import net.jonn.TutorialMood.Item.custom.ChiselItem;
 import net.jonn.TutorialMood.TutorialMood;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +18,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
+            ()-> new ChiselItem(new Item.Properties().durability(64)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

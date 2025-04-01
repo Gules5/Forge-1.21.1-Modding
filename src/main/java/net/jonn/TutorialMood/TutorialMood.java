@@ -2,6 +2,7 @@ package net.jonn.TutorialMood;
 
 import com.mojang.logging.LogUtils;
 import net.jonn.TutorialMood.Block.ModBlocks;
+import net.jonn.TutorialMood.Block.custom.MagicBlock;
 import net.jonn.TutorialMood.Item.ModCreativeModeTabs;
 import net.minecraft.world.food.FoodProperties;
 import net.jonn.TutorialMood.Item.ModItems;
@@ -60,11 +61,17 @@ public class TutorialMood
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
+            event.accept(ModItems.CHISEL);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.ALEXANDRITE_ORE);
+            event.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+            event.accept(ModBlocks.MAGIC_BLOCK);
+            event.accept(ModBlocks.MAGIC_BLOCK);
         }
     }
 

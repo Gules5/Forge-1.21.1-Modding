@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "tutorialmood:block/magic_block_top",
+    "north":"tutorialmood:block/magic_block_side",
+    "east":"tutorialmood:block/magic_block_side",
+    "south":"tutorialmood:block/magic_block_side",
+    "west":"tutorialmood:block/magic_block_side",
+    "down":"tutorialmood:block/magic_block_side",
+    "particle": "tutorialmood:block/magic_block_side"
+  }
+}

@@ -1,5 +1,6 @@
 package net.jonn.TutorialMood.Block;
 
+import net.jonn.TutorialMood.Block.custom.MagicBlock;
 import net.jonn.TutorialMood.Item.ModItems;
 import net.jonn.TutorialMood.TutorialMood;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -30,6 +31,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_ALEXANDRITE_BLOCK = registerBlock("raw_alexandrite_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
+                    .strength(4f)
                     .sound((SoundType.AMETHYST))));
 
     public static final RegistryObject<Block> ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
@@ -41,8 +43,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> ALEXANDRITE_DEEPSLATE_ORE = registerBlock("alexandrite_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
-                    .strength(5f)
+                    .strength(4f)
                     .sound((SoundType.DEEPSLATE))));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .sound((SoundType.CHAIN))));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
