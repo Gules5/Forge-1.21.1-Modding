@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_alexandrite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmood:alexandrite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmood:chisel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_alexandrite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmood:chisel"
+    ]
+  }
+}
