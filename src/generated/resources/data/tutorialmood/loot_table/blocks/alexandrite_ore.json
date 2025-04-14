@@ -26,20 +26,11 @@
                   }
                 }
               ],
-              "name": "tutorialmood:deepslate_alexandrite_ore"
+              "name": "tutorialmood:alexandrite_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
-                {
-                  "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 5.0,
-                    "min": 2.0
-                  },
-                  "function": "minecraft:set_count"
-                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
@@ -57,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmood:deepslate_alexandrite_ore"
+  "random_sequence": "tutorialmood:blocks/alexandrite_ore"
 }

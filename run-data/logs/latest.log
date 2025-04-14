@@ -1,0 +1,22 @@
+[13Apr2025 20:58:15.119] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Gules4\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, tutorialmood, --all, --output, C:\Users\Gules4\Desktop\Modding Stuff\Forge-1.21.1-Modding\src\generated\resources, --existing, C:\Users\Gules4\Desktop\Modding Stuff\Forge-1.21.1-Modding\src\main\resources]
+[13Apr2025 20:58:15.123] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188
+[13Apr2025 20:58:15.124] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.6 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[13Apr2025 20:58:15.248] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Gules4\Desktop\Modding Stuff\Forge-1.21.1-Modding\run-data\config\fml.toml is not correct. Correcting
+[13Apr2025 20:58:15.250] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[13Apr2025 20:58:15.251] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[13Apr2025 20:58:15.251] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[13Apr2025 20:58:15.252] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[13Apr2025 20:58:15.266] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[13Apr2025 20:58:15.400] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Gules4/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[13Apr2025 20:58:16.804] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13Apr2025 20:58:17.905] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Gules4\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, tutorialmood, --all, --output, C:\Users\Gules4\Desktop\Modding Stuff\Forge-1.21.1-Modding\src\generated\resources, --existing, C:\Users\Gules4\Desktop\Modding Stuff\Forge-1.21.1-Modding\src\main\resources]
+[13Apr2025 20:58:25.430] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.0, for MC 1.21.1 with MCP 20240808.132146
+[13Apr2025 20:58:25.430] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.0 Initialized
+[13Apr2025 20:58:25.469] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[13Apr2025 20:58:25.904] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [tutorialmood]
+[13Apr2025 20:58:26.013] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Gules4/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.1.0_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[13Apr2025 20:58:26.014] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Gules4/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.1.0_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[13Apr2025 20:58:26.275] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[13Apr2025 20:58:26.516] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 240 ms
+[13Apr2025 20:58:26.517] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 242 ms
+[13Apr2025 20:58:26.524] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 5, old count: 0, new count: 6, removed stale: 0, written: 5
