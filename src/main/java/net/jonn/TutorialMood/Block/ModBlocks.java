@@ -40,7 +40,7 @@ public class ModBlocks {
                     .strength(4f)
                     .sound((SoundType.STONE))));
 
-    public static final RegistryObject<Block> ALEXANDRITE_DEEPSLATE_ORE = registerBlock("alexandrite_deepslate_ore",
+    public static final RegistryObject<Block> DEEPSLATE_ALEXANDRITE_ORE = registerBlock("deepslate_alexandrite_ore",
             () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
                     .strength(4f)

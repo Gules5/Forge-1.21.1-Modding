@@ -3,12 +3,21 @@
   "item.tutorialmood.raw_alexandrite": "Raw Alexandrite",
   "item.tutorialmood.chisel": "Chisel",
 
+  "item.tutorialmood.kohlrabi": "Kohlrabi",
+
+  "item.tutorialmood.aurora_ashes": "Aurora Ashes",
+
   "block.tutorialmood.alexandrite_block": "Alexandrite Block",
   "block.tutorialmood.raw_alexandrite_block": "Raw Alexandrite Block",
   "block.tutorialmood.alexandrite_ore": "Alexandrite Ore",
-  "block.tutorialmood.alexandrite_deepslate_ore": "Deepslate Alexandrite Ore",
+  "block.tutorialmood.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
   "block.tutorialmood.magic_block": "Magic Block",
 
   "creativetab.tutorialmood.alexandrite_items": "Alexandrite Items",
-  "creativetab.tutorialmood.alexandrite_blocks": "Alexandrite Blocks"
+  "creativetab.tutorialmood.alexandrite_blocks": "Alexandrite Blocks",
+
+  "tooltip.tutorialmood.chisel": "Hold §eShift§r for more Information!",
+  "tooltip.tutorialmood.chisel.shift_down": "Works on: Grass, Stone Variants, and Alexandrite Deepslate Ore",
+  "tooltip.tutorialmood.magic_block": "This block is quite §3Magical§r..."
+
 }

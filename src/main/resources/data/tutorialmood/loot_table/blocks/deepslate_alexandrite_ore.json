@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "tutorialmood:alexandrite_deepslate_ore"
+              "name": "tutorialmood:deepslate_alexandrite_ore"
             },
             {
               "type": "minecraft:item",
@@ -57,5 +57,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmood:alexandrite_deepslate_ore"
+  "random_sequence": "tutorialmood:deepslate_alexandrite_ore"
 }

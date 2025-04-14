@@ -69,8 +69,7 @@ public class TutorialMood
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.ALEXANDRITE_ORE);
-            event.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
-            event.accept(ModBlocks.MAGIC_BLOCK);
+            event.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
             event.accept(ModBlocks.MAGIC_BLOCK);
         }
     }
